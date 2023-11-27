@@ -1,0 +1,33 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(206, 206, 223);
+    border-radius: 2% 4px;
+    text-align: center;
+   
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+#togglePassword {
+    position: absolute;
+   
+    top: 50%;
+    right: 500px;
+    transform: translateY(50%);
+    cursor: pointer;
+}
